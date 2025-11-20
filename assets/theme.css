@@ -32,10 +32,6 @@ a.clickable:link, a.clickable:visited {
     cursor: pointer;
 }
 
-a.clickable:hover {
-    animation: 1s linear 0s infinite normal blinking-link;
-}
-
 @keyframes blinking-link {
     from {
         ::before {
